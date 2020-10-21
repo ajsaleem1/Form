@@ -97,7 +97,7 @@ app.post(
 );
 
 // Use the environment variable or use a given port
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 
 // Create a server, uses `handleRequest` which is function that takes
 // care of providing requested data
